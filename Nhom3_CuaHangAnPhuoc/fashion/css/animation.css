@@ -1,0 +1,112 @@
+/* THU NHO IMG  */
+/* -webkit-animation: scale-up-center 0.3s cubic-bezier(0.850, 0.900, 0.950, 1.000) both;
+animation: scale-up-center 0.3s cubic-bezier(0.850, 0.900, 0.950, 1.000) both; */
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+}
+@keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+}  
+
+  /* PHONG TO IMG  */
+  /* -webkit-animation: scale-up-center2 0.3s cubic-bezier(0.850, 0.900, 0.950, 1.000) both;
+  animation: scale-up-center2 0.3s cubic-bezier(0.850, 0.900, 0.950, 1.000) both; */
+@-webkit-keyframes scale-up-center2 {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+}
+@keyframes scale-up-center2 {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+}  
+
+/* PHONG TO TEXT  */
+/* -webkit-animation: scale-up-center_text 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+animation: scale-up-center_text 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; */
+@-webkit-keyframes scale-up-center_text {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+@keyframes scale-up-center_text {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+/* SHADOWN IMG  */
+/* -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
+@-webkit-keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px black;
+            box-shadow: 0 0 20px 0px black;
+  }
+}
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px black;
+            box-shadow: 0 0 20px 0px black;
+  }
+}
+
+@keyframes opacity_10_05 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .7;
+  }
+}
+@keyframes letterspacing {
+  0% {
+    letter-spacing: 0px;
+  }
+  100% {
+    letter-spacing: 1px;
+  }
+}

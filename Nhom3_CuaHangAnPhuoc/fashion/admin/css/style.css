@@ -1,0 +1,187 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a,
+.a {
+    color: #148ac1;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+a:hover,
+.a:hover {
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td,
+.table th {
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.table td.center,
+.table th.center {
+    text-align: center;
+}
+
+.table.bordered th,
+.table.bordered td {
+    border: solid 1px #ddd;
+}
+
+.submit-btn {
+    background: none;
+    border: 0;
+    margin-right: 10px;
+    padding: 0;
+    outline: 0;
+}
+
+.submit-btn:hover {
+    text-decoration: unset;
+}
+
+input,
+select,
+textarea {
+    border: solid 1px #ccc;
+    padding: 5px 7px;
+    outline: 0;
+    width: 100%;
+}
+
+input:not([readonly]):not([disabled]):focus,
+input:not([readonly]):not([disabled]):active,
+textarea:not([readonly]):not([disabled]):focus,
+textarea:not([readonly]):not([disabled]):active {
+    box-shadow: 0 0 3px rgba(34, 183, 251, .5);
+}
+
+.login-form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-form .form-container {
+    border: solid 1px #ccc;
+    box-shadow: 0 0 3px #000;
+    padding: 15px;
+}
+
+.login-form .form-container .title {
+    background: darkblue;
+    color: #fff;
+    margin: -15px -15px 15px;
+    padding: 10px 15px;
+}
+    
+.login-form .form-container .form-line {
+    display: flex;
+    align-items: center;
+}
+
+.login-form .form-container .form-line > span {
+    flex-shrink: 0;
+    width: 120px;
+}
+    
+.login-form .form-container .form-line + .form-line {
+    margin-top: 15px;
+}
+
+.login-form .form-container .form-line > button {
+    background: darkblue;
+    border: solid 2px darkblue;
+    color: #fff;
+    margin-left: 120px;
+    padding: 7px 12px;
+    transition: background .5s, color .5s;
+}
+
+.login-form .form-container .form-line > button:hover {
+    background: transparent;
+    color: darkblue;
+}
+
+header {
+    background: #ddd;
+    display: flex;
+    padding: 10px 15px;
+}
+
+header .left {
+    display: flex;
+}
+
+header .left > a {
+    align-items: center;
+    display: flex;
+    padding: 10px 15px;
+    transition: background .5s, color .5s;
+}
+
+header .left > a:hover {
+    background: #ccc;
+}
+
+header .left > a + a {
+    margin-left: 10px;
+}
+
+header .right {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+header .right > * + * {
+    margin-top: 5px;
+}
+
+main {
+    border-top: solid 1px #fff;
+    display: flex;
+    min-height: calc(100vh - 63px);
+}
+
+main .left {
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 250px;
+}
+
+main .right {
+    flex-grow: 1;
+    padding: 10px 15px;
+}
+
+main .left > a {
+    padding: 10px 15px;
+    transition: background .5s, color .5s;
+}
+
+main .left > a:hover {
+    background: #ccc;
+}

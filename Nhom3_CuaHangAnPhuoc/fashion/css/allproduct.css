@@ -1,0 +1,123 @@
+.breadcrumb-area{
+    margin: 30px 0;
+}
+.alltitle {
+    text-align: center;
+}
+.alltitle__main {
+    font-size: 30px;
+    font-weight: 800;
+}
+.alltitle__sub {
+    font-size: 18px;
+}
+.allmain {
+    display: flex;
+    justify-content: space-between;
+}
+.allsidebar {
+    width: 22%;
+    min-width: 200px;
+}
+.list-group-item a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.allmain {
+    flex: 1;
+}
+.allsidebar__name {
+    font-size: 24px;
+    margin-top: 20px;
+}
+.allsidebar hr {
+    margin: 20px 0;
+}
+.mausac__title,
+.kieudang__title,
+.hoatiet__title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.mausac__title a,
+.kieudang__title a,
+.hoatiet__content a {
+    margin-right: 5px;
+}
+.kieudang__content a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid black;
+    opacity: .5;
+}
+.kieudang__content a:hover {
+    text-shadow: 0px 0px 0px #000;
+    opacity: 1;
+}
+.mausac__content a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border: 1px solid gray;
+}
+.mausac__content a:hover {
+    border: 1px solid white;
+    -webkit-animation: scale-up-center 0.3s cubic-bezier(0.850, 0.900, 0.950, 1.000) both;
+    animation: scale-up-center 0.3s cubic-bezier(0.850, 0.900, 0.950, 1.000) both;
+}
+.allcontent {
+    flex: 1;
+    margin: 20px 0 20px 20px;
+}
+.allcontent__tool {
+    display: flex;
+    justify-content: space-between;
+}
+.allcontent__tool-right {
+    display: flex;
+}
+.allcontent__tool-item{
+    margin: 0 10px;
+}
+select {
+    box-shadow: 5px 5px 5px -5px black;
+}
+.allcontent__items {
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.allcontent__items a {
+    display: block;
+    width: 33%;
+    min-width: 160px;
+    font-size: 16px;
+}
+.allcontent__items a:hover{
+    text-shadow: 0px 0px 0px #fff;
+    animation: letterspacing .5s ease-in-out;
+    letter-spacing: 1px;
+}
+
+.allcontent__items a:hover div img{
+    animation: opacity_10_05 .5s ease-in-out;
+    opacity: .7;
+}
+.allcontent__item {
+    margin: 20px;
+    box-shadow: 0px 0px 5px 0px gray;
+}
+.allcontent__item img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.allcontent__item p{
+    padding: 10px 20px;
+}

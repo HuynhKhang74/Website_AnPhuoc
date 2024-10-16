@@ -1,0 +1,51 @@
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px #000;
+    border-radius: 5px;
+}
+
+.container h1 {
+    margin: 25px 0;
+}
+
+.noidunggiohang {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    border-top: 5px solid #999;
+}
+.sanphamgiohang {
+    display: flex;
+}
+.noidungsanpham {
+    text-align: left;
+    padding-left: 20px;
+}
+.noidungsanpham .btn {
+    margin-top: 15px;
+}
+.soluongsanpham {
+    width: 100px;
+}
+.noidungtongtien {
+    display: flex;
+    justify-content:right;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.noidungtongtien b {
+    margin-right: 20px;
+}
+.submittongtien {
+    display: flex;
+    justify-content:right;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.submittongtien .btn {
+    margin-left: 10px;
+}
+.input-group{
+    justify-content: center;
+}
